@@ -1,0 +1,27 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files & secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Google ADK local state & databases
+.adk/
+*.db
+*.sqlite3
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
